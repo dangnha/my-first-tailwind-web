@@ -5,62 +5,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
+    <link href="./output.css" type="text/css" rel="stylesheet">
     <title>TailwindCss Program</title>
 </head>
 
 <body>
+    <div>
+        <div class="root max-w-screen-2xl text-base mx-auto px-8 bg-white font-medium">
 
-    <div id="root">
+            <!-- Header -->
+            <div class="header py-6 mx-10">
+                <div class="nav flex flex-row justify-between items-center">
+                    <div class="logo basic-2/6 text-center text-2xl font-semibold cursor-pointer px-8">
+                        <a href="#">CoffeeStyle</a>
+                    </div>
 
-        <!-- Header -->
-        <div id="header">
+                    <div class="menu basis-3/6 ">
+                        <ul class=" flex justify-end gap-8 uppercase text-sm text-gray-500">
+                            <li class="top-menu-item">
+                                <a href="">home</a>
+                            </li>
+                            <li class="top-menu-item">
+                                <a href="">products</a>
+                            </li>
+                            <li class="top-menu-item">
+                                <a href="">blog</a>
+                            </li>
+                            <li class="top-menu-item">
+                                <a href="">about</a>
+                            </li>
+                            <li class="top-menu-item">
+                                <a href="">contract</a>
+                            </li>
+                            <li class="top-menu-item">
+                                <a href="">styleguide</a>
+                            </li>
+                            <li class="top-menu-item">
+                                <a href="https://github.com/dangnha">dangnha</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="cart basis-1/6  text-sm text-gray-500  flex justify-start font-medium uppercase">
+                        <li>
+                            <a href="" class="cart__element top-menu-item flex items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="tqd-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                  </svg>
+                                <span>cart</span>
+                                <span class="tqd-badge-circle bg-orange-500 text-white">20+</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- <div class="menu-hide">
+
+                    </div> -->
+                </div>
+            </div>
+
+            <!-- Body page -->
+            <div id="body-page">
+                <!-- Slide -->
+                <div class="slide">
+
+                </div>
+
+                <!-- content -->
+                <div class="content-video">
+
+                </div>
+
+                <!-- buying -->
+                <div class="buying">
+
+                </div>
+
+                <!-- try-responsive -->
+                <div class="try-responsive">
+
+                </div>
+
+                <!-- img const -->
+                <div class="img-const">
+
+                </div>
+
+                <!-- end-content -->
+                <div class="end-content">
+
+                </div>
+            </div>
+
+            <!-- contract -->
+            <div id="contract">
+
+            </div>
+
+            <!-- footer -->
+            <div id="footer">
+
+            </div>
 
         </div>
-
-        <!-- Body page -->
-        <div id="body-page">
-            <!-- Slide -->
-            <div class="slide">
-
-            </div>
-
-            <!-- content -->
-            <div class="content-video">
-
-            </div>
-
-            <!-- buying -->
-            <div class="buying">
-
-            </div>
-
-            <!-- try-responesive -->
-            <div class="try-responsive">
-
-            </div>
-
-            <!-- img const -->
-            <div class="img-const">
-
-            </div>
-
-            <!-- end-content -->
-            <div class="end-content">
-
-            </div>
-        </div>
-
-        <!-- contract -->
-        <div id="contract">
-
-        </div>
-
-        <!-- footer -->
-        <div id="footer">
-
-        </div>
-
     </div>
 </body>
 
