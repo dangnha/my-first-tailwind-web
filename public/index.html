@@ -18,12 +18,13 @@
             <!-- Header -->
             <div class="header py-6 mr-8 lg:mx-10">
                 <div class="nav flex flex-row justify-between items-center relative">
-                    <div class="logo basic-2/6 text-center text-xl font-semibold cursor-pointer px-8">
+                    <div class="logo basic-2/6 text-center text-xl font-semibold cursor-pointer px-8 lg:pl-28">
                         <a href="#">CoffeeStyle</a>
                     </div>
 
+                    <!-- navigation -->
 
-                    <ul id="nav-menu" class=" hidden basis-3/6 lg:flex lg:justify-end lg:gap-8 uppercase text-sm text-gray-500">
+                    <ul id="nav-menu" class=" hidden basis-3/6 lg:flex lg:justify-end lg:gap-9 uppercase text-sm text-gray-500">
                         <li class="top-menu-item">
                             <a href="">home</a>
                         </li>
@@ -42,11 +43,12 @@
                         <li class="top-menu-item">
                             <a href="">styleguide</a>
                         </li>
-                        <li class="top-menu-item top-menu-item-active">
+                        <!-- <li class="top-menu-item top-menu-item-active">
                             <a href="https://github.com/dangnha" target="blank">dangnha</a>
-                        </li>
+                        </li> -->
                     </ul>
 
+                    <!-- Cart logo -->
 
                     <ul class="cart basis-3/6 lg:basis-1/6  text-sm text-gray-500  flex lg:justify-start justify-end font-medium uppercase">
                         <li>
@@ -60,23 +62,32 @@
                         </li>
                     </ul>
 
+                    <!-- Menu hidden -->
                     <div class="menu-hidden basis-1/6 lg:hidden px-5 flex items-center cursor-pointer">
                         <svg id="nav-menu-toggle" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                          </svg>
+                        </svg>
                     </div>
 
-                    <!-- <div class="menu-hide">
-
-                    </div> -->
                 </div>
             </div>
 
             <!-- Body page -->
             <div id="body-page">
                 <!-- Slide -->
-                <div class="slide">
-
+                <div class="slide h-[530px] bg-[url(./img/slider.jpg)] bg-cover bg-no-repeat bg-bottom">
+                    <div class="w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-50">
+                        <div class="text-white text-center">
+                            <div class="tracking-widest uppercase text-xs opacity-75">best place to buy design</div>
+                            <div class="text-5xl my-3 ">Coffee Mugs</div>
+                            <div class="text-lg mb-8 opacity-[0.85] px-3">
+                                The most versatile furniture system ever created. Designed to fit your life, made to move and grow.
+                            </div>
+                            <button class="tracking-widest uppercase text-xs bg-white text-black outline-none px-6 py-[18px] font-bold hover:bg-slate-200">
+                                explore our products
+                            </button>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- content -->
