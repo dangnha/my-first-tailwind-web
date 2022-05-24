@@ -569,8 +569,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
-.h-\[540px\]{
-  height: 540px;
+.h-\[400px\]{
+  height: 400px;
+}
+
+.h-\[380px\]{
+  height: 380px;
 }
 
 .w-6{
@@ -579,10 +583,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-full{
   width: 100%;
-}
-
-.w-\[65\%\]{
-  width: 65%;
 }
 
 .w-\[90\%\]{
@@ -607,10 +607,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .cursor-pointer{
   cursor: pointer;
-}
-
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-cols-1{
@@ -645,16 +641,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.5rem;
 }
 
-.gap-4{
-  gap: 1rem;
+.gap-8{
+  gap: 2rem;
 }
 
 .gap-3{
   gap: 0.75rem;
-}
-
-.gap-8{
-  gap: 2rem;
 }
 
 .bg-white{
@@ -688,6 +680,42 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url(./img/cfcup.jpg);
 }
 
+.bg-\[url\(\.\/img\/cup1\.jpg\)\]{
+  background-image: url(./img/cup1.jpg);
+}
+
+.bg-\[url\(\.\/img\/cup2\.jpg\)\]{
+  background-image: url(./img/cup2.jpg);
+}
+
+.bg-\[url\(\.\/img\/cup3\.jpg\)\]{
+  background-image: url(./img/cup3.jpg);
+}
+
+.bg-\[url\(\.\/img\/cup4\.jpg\)\]{
+  background-image: url(./img/cup4.jpg);
+}
+
+.bg-\[url\(\.\/img\/cup5\.jpg\)\]{
+  background-image: url(./img/cup5.jpg);
+}
+
+.bg-\[url\(\.\/img\/cup6\.jpg\)\]{
+  background-image: url(./img/cup6.jpg);
+}
+
+.bg-\[url\(\.\/img\/cup7\.jpg\)\]{
+  background-image: url(./img/cup7.jpg);
+}
+
+.bg-\[url\(\.\/img\/cup8\.jpg\)\]{
+  background-image: url(./img/cup8.jpg);
+}
+
+.bg-\[url\(\.\/img\/cup9\.jpg\)\]{
+  background-image: url(./img/cup9.jpg);
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -714,9 +742,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1.5rem;
 }
 
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-3{
@@ -732,16 +760,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-\[18px\]{
   padding-top: 18px;
   padding-bottom: 18px;
-}
-
-.py-3{
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .py-\[6px\]{
@@ -822,10 +840,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .leading-7{
   line-height: 1.75rem;
-}
-
-.leading-\[18px\]{
-  line-height: 18px;
 }
 
 .leading-6{
@@ -1054,6 +1068,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.product-card{
+  margin-bottom: 2.5rem;
+}
+
 .after\:absolute::after{
   content: var(--tw-content);
   position: absolute;
@@ -1172,18 +1190,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 640px){
-  .sm\:px-5{
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+  .sm\:grid-cols-1{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .sm\:px-8{
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
+  .sm\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
 }
 
 @media (min-width: 768px){
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:px-16{
     padding-left: 4rem;
     padding-right: 4rem;
@@ -1209,6 +1235,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: none;
   }
 
+  .lg\:h-\[540px\]{
+    height: 540px;
+  }
+
   .lg\:w-\[65\%\]{
     width: 65%;
   }
@@ -1219,6 +1249,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:justify-start{
