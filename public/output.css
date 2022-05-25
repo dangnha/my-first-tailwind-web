@@ -514,14 +514,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 10px;
 }
 
-.bottom-0{
-  bottom: 0px;
-}
-
-.left-\[calc\(-50vw\+50\%\)\]{
-  left: calc(-50vw + 50%);
-}
-
 .left-\[calc\(-50vw_\+_50\%\)\]{
   left: calc(-50vw + 50%);
 }
@@ -540,10 +532,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .z-40{
   z-index: 40;
-}
-
-.-z-10{
-  z-index: -10;
 }
 
 .mx-auto{
@@ -593,6 +581,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.75rem;
 }
 
+.mt-5{
+  margin-top: 1.25rem;
+}
+
 .flex{
   display: flex;
 }
@@ -637,8 +629,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1000px;
 }
 
-.h-\[340px\]{
-  height: 340px;
+.h-\[300px\]{
+  height: 300px;
 }
 
 .w-6{
@@ -741,6 +733,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.75rem;
 }
 
+.gap-5{
+  gap: 1.25rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -827,6 +827,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-\[url\(\.\/img\/parallax-bg\.jpg\)\]{
   background-image: url(./img/parallax-bg.jpg);
+}
+
+.bg-\[url\(\.\/img\/bg-blog-img1\.jpg\)\]{
+  background-image: url(./img/bg-blog-img1.jpg);
+}
+
+.bg-\[url\(\.\/img\/bg-blog-img2\.jpg\)\]{
+  background-image: url(./img/bg-blog-img2.jpg);
+}
+
+.bg-\[url\(\.\/img\/bg-blog-img3\.jpg\)\]{
+  background-image: url(./img/bg-blog-img3.jpg);
 }
 
 .bg-cover{
@@ -971,6 +983,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   letter-spacing: 0.1em;
 }
 
+.tracking-wider{
+  letter-spacing: 0.05em;
+}
+
 .text-gray-500{
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
@@ -1025,10 +1041,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .opacity-70{
   opacity: 0.7;
-}
-
-.opacity-0{
-  opacity: 0;
 }
 
 .shadow-md{
@@ -1326,6 +1338,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 640px){
+  .sm\:mx-5{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
   .sm\:grid-cols-1{
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -1346,6 +1363,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px){
+  .md\:mx-5{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
   .md\:mb-0{
     margin-bottom: 0px;
   }
@@ -1388,6 +1410,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 4rem;
   }
 
+  .md\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
   .md\:text-left{
     text-align: left;
   }
@@ -1413,6 +1440,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:h-\[540px\]{
     height: 540px;
+  }
+
+  .lg\:w-\[65\%\]{
+    width: 65%;
   }
 
   .lg\:basis-1\/6{
@@ -1451,6 +1482,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:pl-28{
     padding-left: 7rem;
   }
+
+  .lg\:text-left{
+    text-align: left;
+  }
 }
 
 @media (min-width: 1280px){
@@ -1460,6 +1495,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:gap-16{
     gap: 4rem;
+  }
+
+  .xl\:gap-10{
+    gap: 2.5rem;
   }
 
   .xl\:px-96{
