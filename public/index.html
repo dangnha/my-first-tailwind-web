@@ -13,12 +13,12 @@
 
 <body>
     <div>
-        <div class="root font-Karla max-w-screen-2xl text-base mx-auto px-8 bg-white font-medium">
+        <div class="root font-Karla max-w-screen-2xl text-base mx-auto md:px-8 bg-white font-medium">
 
             <!-- Header -->
-            <div class="header py-6 lg:mx-10">
+            <div class="header py-6 mx-auto fixed top-0 bg-white left-0 right-0 z-50">
                 <div class="nav flex flex-row justify-between items-center relative">
-                    <div class="logo basic-2/6 text-center text-xl font-semibold cursor-pointer px-4 sm:px-8 lg:pl-28">
+                    <div class="logo basic-2/6 text-center text-xl font-semibold cursor-pointer px-4 sm:px-8 lg:pl-28 pl-10">
 
                         <a href="#">CoffeeStyle</a>
                     </div>
@@ -74,7 +74,7 @@
             </div>
 
             <!-- Body page -->
-            <div id="body-page">
+            <div id="body-page" class="mt-[84px]">
                 <!-- Slide -->
                 <div class="slide h-[530px] bg-[url(./img/slider.jpg)] bg-cover bg-no-repeat bg-bottom">
                     <div class="w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-50">
@@ -123,16 +123,16 @@
                 </div>
 
                 <!-- Featured mugs -->
-                <div class="feature-mugs w-[90%] lg:w-[65%] mx-auto mb-24">
+                <div class="feature-mugs w-[90%] xl:w-[65%] mx-auto mb-24">
                     <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-4 gap-8">
                         <div class="mugs-card">
                             <div class="relative group z-10 h-[400px] lg:h-[540px] bg-[url(./img/unsplash.jpg)] bg-cover bg-no-repeat bg-center mb-9">
-                                <a class="z-30" href="#" alt="dangnha">
+                                <a class="z-20" href="#" alt="dangnha">
                                     <div class=" w-full h-full hover:bg-slate-900 hover:opacity-10 hover:transition-all hover:ease-in-out hover:duration-400">
 
                                     </div>
                                 </a>
-                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-50 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
+                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-40 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
                                     explore mug
                                 </div>
                             </div>
@@ -146,16 +146,16 @@
                         </div>
                         <div class="mugs-card">
                             <div class="relative group z-10 h-[400px] lg:h-[540px] bg-[url(./img/cfcup.jpg)] bg-cover bg-no-repeat bg-center mb-9">
-                                <a class="z-30" href="#" alt="dangnha">
+                                <a class="z-20" href="#" alt="dangnha">
                                     <div class=" w-full h-full hover:bg-slate-900 hover:opacity-10 hover:transition-all hover:ease-in-out hover:duration-400">
 
                                     </div>
                                 </a>
-                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-50 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
+                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-40 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
                                     explore mug
                                 </div>
 
-                                <div class="z-50 shadow-md absolute right-[10px] top-[10px] text-base leading-7 font-bold bg-white text-center text-[#a25f4b] px-4 py-[6px] ">On Sale</div>
+                                <div class="z-40 shadow-md absolute right-[10px] top-[10px] text-base leading-7 font-bold bg-white text-center text-[#a25f4b] px-4 py-[6px] ">On Sale</div>
                             </div>
 
                             <a class="w-full cursor-pointer">
@@ -177,20 +177,20 @@
                 </div>
 
                 <!-- try-responsive -->
-                <div class="try-responsive w-[90%] lg:w-[65%] mx-auto mb-24">
+                <div class="try-responsive w-[90%] xl:w-[65%] mx-auto mb-2 lg:mb-24">
                     <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-4 gap-8">
                         <div class="product-card">
                             <div class="relative group z-10 h-[380px] bg-[url(./img/cup1.jpg)] bg-cover bg-no-repeat bg-center mb-9">
-                                <a class="z-30" href="#" alt="dangnha">
+                                <a class="z-20" href="#" alt="dangnha">
                                     <div class=" w-full h-full hover:opacity-10 hover:bg-slate-900 hover:transition-all hover:ease-in-out hover:duration-400">
 
                                     </div>
                                 </a>
-                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-50 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
+                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-40 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
                                     explore mug
                                 </div>
 
-                                <div class="z-50 shadow-md absolute right-[10px] top-[10px] text-base leading-7 font-bold bg-white text-center text-[#a25f4b] px-4 py-[6px] ">On Sale</div>
+                                <div class="z-40 shadow-md absolute right-[10px] top-[10px] text-base leading-7 font-bold bg-white text-center text-[#a25f4b] px-4 py-[6px] ">On Sale</div>
                             </div>
 
                             <a class="w-full cursor-pointer">
@@ -201,18 +201,19 @@
                                 <div class="leading-6 line-through">$37.00 USD</div>
                             </div>
                         </div>
+
                         <div class="product-card">
                             <div class="relative group z-10 h-[380px] bg-[url(./img/cup2.jpg)] bg-cover bg-no-repeat bg-center mb-9">
-                                <a class="z-30" href="#" alt="dangnha">
+                                <a class="z-20" href="#" alt="dangnha">
                                     <div class=" w-full h-full hover:opacity-10 hover:bg-slate-900 hover:transition-all hover:ease-in-out hover:duration-400">
 
                                     </div>
                                 </a>
-                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-50 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
+                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-40 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
                                     explore mug
                                 </div>
 
-                                <div class="z-50 shadow-md absolute right-[10px] top-[10px] text-base leading-7 font-bold bg-white text-center text-[#a25f4b] px-4 py-[6px] ">On Sale</div>
+                                <div class="z-40 shadow-md absolute right-[10px] top-[10px] text-base leading-7 font-bold bg-white text-center text-[#a25f4b] px-4 py-[6px] ">On Sale</div>
                             </div>
 
                             <a class="w-full cursor-pointer">
@@ -226,12 +227,12 @@
 
                         <div class="product-card">
                             <div class="relative group z-10 h-[380px] bg-[url(./img/cup3.jpg)] bg-cover bg-no-repeat bg-center mb-9">
-                                <a class="z-30" href="#" alt="dangnha">
+                                <a class="z-20" href="#" alt="dangnha">
                                     <div class=" w-full h-full hover:opacity-10 hover:bg-slate-900 hover:transition-all hover:ease-in-out hover:duration-400">
 
                                     </div>
                                 </a>
-                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-50 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
+                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-40 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
                                     explore mug
                                 </div>
 
@@ -247,12 +248,12 @@
 
                         <div class="product-card">
                             <div class="relative group z-10 h-[380px] bg-[url(./img/cup4.jpg)] bg-cover bg-no-repeat bg-center mb-9">
-                                <a class="z-30" href="#" alt="dangnha">
+                                <a class="z-20" href="#" alt="dangnha">
                                     <div class=" w-full h-full hover:opacity-10 hover:bg-slate-900 hover:transition-all hover:ease-in-out hover:duration-400">
 
                                     </div>
                                 </a>
-                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-50 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
+                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-40 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
                                     explore mug
                                 </div>
                             </div>
@@ -264,14 +265,15 @@
                                 $25.00 USD
                             </div>
                         </div>
+
                         <div class="product-card">
                             <div class="relative group z-10 h-[380px] bg-[url(./img/cup5.jpg)] bg-cover bg-no-repeat bg-center mb-9">
-                                <a class="z-30" href="#" alt="dangnha">
+                                <a class="z-20" href="#" alt="dangnha">
                                     <div class=" w-full h-full hover:opacity-10 hover:bg-slate-900 hover:transition-all hover:ease-in-out hover:duration-400">
 
                                     </div>
                                 </a>
-                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-50 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
+                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-40 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
                                     explore mug
                                 </div>
 
@@ -287,12 +289,12 @@
 
                         <div class="product-card">
                             <div class="relative group z-10 h-[380px] bg-[url(./img/cup6.jpg)] bg-cover bg-no-repeat bg-center mb-9">
-                                <a class="z-30" href="#" alt="dangnha">
+                                <a class="z-20" href="#" alt="dangnha">
                                     <div class=" w-full h-full hover:opacity-10 hover:bg-slate-900 hover:transition-all hover:ease-in-out hover:duration-400">
 
                                     </div>
                                 </a>
-                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-50 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
+                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-40 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
                                     explore mug
                                 </div>
 
@@ -308,12 +310,12 @@
 
                         <div class="product-card">
                             <div class="relative group z-10 h-[380px] bg-[url(./img/cup7.jpg)] bg-cover bg-no-repeat bg-center mb-9">
-                                <a class="z-30" href="#" alt="dangnha">
+                                <a class="z-20" href="#" alt="dangnha">
                                     <div class=" w-full h-full hover:opacity-10 hover:bg-slate-900 hover:transition-all hover:ease-in-out hover:duration-400">
 
                                     </div>
                                 </a>
-                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-50 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
+                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-40 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
                                     explore mug
                                 </div>
                             </div>
@@ -325,14 +327,15 @@
                                 $25.00 USD
                             </div>
                         </div>
+
                         <div class="product-card">
                             <div class="relative group z-10 h-[380px] bg-[url(./img/cup8.jpg)] bg-cover bg-no-repeat bg-center mb-9">
-                                <a class="z-30" href="#" alt="dangnha">
+                                <a class="z-20" href="#" alt="dangnha">
                                     <div class=" w-full h-full hover:opacity-10 hover:bg-slate-900 hover:transition-all hover:ease-in-out hover:duration-400">
 
                                     </div>
                                 </a>
-                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-50 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
+                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-40 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
                                     explore mug
                                 </div>
 
@@ -348,12 +351,12 @@
 
                         <div class="product-card">
                             <div class="relative group z-10 h-[380px] bg-[url(./img/cup9.jpg)] bg-cover bg-no-repeat bg-center mb-9">
-                                <a class="z-30" href="#" alt="dangnha">
+                                <a class="z-20" href="#" alt="dangnha">
                                     <div class=" w-full h-full hover:opacity-10 hover:bg-slate-900 hover:transition-all hover:ease-in-out hover:duration-400">
 
                                     </div>
                                 </a>
-                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-50 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
+                                <div class="hidden group-hover:block group-hover:animate-fadeIn z-40 absolute bottom-4 left-5 right-5 cursor-pointer ndn-button">
                                     explore mug
                                 </div>
 
@@ -377,7 +380,40 @@
                 </div>
 
                 <!-- img const -->
-                <div class="img-const">
+                <div class="repon-flex-skill w-[90%] xl:w-[65%] mx-auto mb-24 flex md:flex-row flex-col items-center xl:gap-16 gap-8">
+                    <div class="md:basis-1/2 grid grid-rows-1 md:flex md:flex-row items-center gap-2 sm:gap-5 w-full h-full mb-7 md:mb-0">
+                        <div class="basis-2/3 h-[280px] bg-[url(./img/book.jpg)] bg-cover bg-no-repeat bg-center">
+
+                        </div>
+
+                        <div class="basis-1/3 grid grid-cols-2 md:flex md:flex-col gap-2 sm:gap-5">
+                            <div class="h-[200px] md:h-[130px] bg-[url(./img/cuphand.jpg)] bg-cover bg-no-repeat bg-center">
+
+                            </div>
+                            <div class="h-[200px] md:h-[130px] bg-[url(./img/cupspoon.jpg)] bg-cover bg-no-repeat bg-center">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:basis-1/2 flex flex-col justify-evenly md:items-start items-center md:text-left text-center">
+                        <div class="text-xs uppercase font-bold text-slate-600 opacity-70 tracking-widest">
+                            premium offer
+                        </div>
+                        <div class="text-4xl my-3">
+                            Get our Coffee Magazine
+                        </div>
+                        <div class="text-base text-slate-600 opacity-70 mb-4">
+                            The most versatile furniture system ever created. Designed to fit your life.
+                        </div>
+                        <button class="text-sm max-w-[180px] px-6 py-[18px] bg-black text-white uppercase font-semibold tracking-widest">
+                            start shopping  
+                        </button>
+                    </div>
+                </div>
+
+                <!-- background const -->
+                <div class="parallax-bg h-[400px] mb-24 bg-fixed bg-[url(./img/parallax-bg.jpg)] bg-cover bg-no-repeat bg-center w-[100vw] relative left-[calc(-50vw_+_50%)]">
 
                 </div>
 
@@ -389,7 +425,7 @@
                 </div>
 
                 <!-- end-content -->
-                <div class="end-content">
+                <div class="end-content h-[1000px]">
 
                 </div>
             </div>
