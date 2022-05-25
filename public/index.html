@@ -99,9 +99,15 @@
                 </div>
 
                 <!-- content -->
-                <div class="content-video">
-                    <div class="w-full h-full flex flex-col justify-center items-center px-6 md:px-16 lg:px-60 xl:px-96 text-center">
-                        <div class="text-3xl mb-6 leading-10 font-normal">
+                <div class="content-video flex lg:flex-row flex-col justify-center mx-auto items-center gap-10 xl:w-[65%] w-[90%]">
+                    <div class="basis-1/2">
+                        <video autoplay loop muted class="w-full h-full object-cover min-h-[350px]">
+                            <source src="./video/video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="basis-1/2 w-full h-full flex flex-col justify-center items-center lg:text-left text-center">
+                        <div class="text-3xl mb-6 leading-10 font-normal lg:mt-0 mt-7">
+                            <!--lg:mt-0 mt-5-->
                             What is your most special coffee?
                         </div>
                         <div class="text-base mb-6 text-gray-450 opacity-50 leading-7">
