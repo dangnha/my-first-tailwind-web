@@ -11,7 +11,9 @@ module.exports = {
                     200: '#C89F94',
                     400: '#A25F4B',
                     600: '#744838',
-                }
+                },
+
+                'text-footer': '#e5e7eb'
             },
             keyframes: {
                 slideDown: {
